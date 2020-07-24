@@ -77,7 +77,7 @@ stages:
     - group: Release
     steps:
     - script: |
-        # we will exit when any command returns a failure status.
+        # we will exit when any command returns a failure status from this script.
         set -e
 
         # Write terraform.tfvars.
